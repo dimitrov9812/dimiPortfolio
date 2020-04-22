@@ -3209,6 +3209,9 @@ input, select, textarea {
 		font-size: 1.6em	;
 		color:rgb(253, 95, 95)
 	}
+	.project-heading{
+		font-size: 1.2em;
+	}
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
