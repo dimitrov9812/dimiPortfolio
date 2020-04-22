@@ -190,7 +190,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #efefef;
+		border-bottom: solid 2px rgb(253, 95, 95);
 		margin: 2em 0;
 	}
 
@@ -2464,8 +2464,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: rgb(253, 95, 95);
+			color: rgb(253, 95, 95) !important;
 		}
 
 		input[type="submit"]:active,
@@ -2473,8 +2473,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: rgb(253, 95, 95);
+			color: rgb(253, 95, 95) !important;
 		}
 
 		input[type="submit"].icon,
@@ -2689,7 +2689,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px rgb(253, 95, 95);;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
@@ -3203,14 +3203,31 @@ input, select, textarea {
 	}
 	.name-p{
 		font-size: 1.0em	;
-		color:rgb(253, 95, 95)
+		color:rgb(253, 95, 95);
 	}
 	.name-element{
 		font-size: 1.6em	;
-		color:rgb(253, 95, 95)
+		color:rgb(253, 95, 95);
+	}
+	#red{
+		color:rgb(253, 95, 95);
+	}
+	#red-text{
+		color:rgb(253, 95, 95);
+		font-size: 1.8em;
+		font-variant-caps: all-small-caps;
 	}
 	.project-heading{
+		
 		font-size: 1.2em;
+		font-variant-caps: all-small-caps;
+	}
+	.project-title{
+		color:rgb(77, 74, 74);
+		font-variant-caps: all-small-caps;
+	}
+	.project-separate{
+		color:rgb(253, 95, 95);
 	}
 /* XSmall */
 
